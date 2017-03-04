@@ -42,7 +42,7 @@ To benefit from TypeScript type definitions from [DefinitelyTyped][] repository 
 
 Then you would import the JS and CSS files specified in library's installation instructions so that [Webpack][] knows about them:
 
-Edit [src/main/webapp/app/vendor.ts](src/main/webapp/app/vendor.ts)file:
+Edit [src/main/webapp/app/vendor.ts](src/main/webapp/app/vendor.ts) file:
 ~~~
 import 'leaflet/dist/leaflet.js';
 ~~~
