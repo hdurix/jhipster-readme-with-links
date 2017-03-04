@@ -76,7 +76,7 @@ To optimize the jhipster application for production, run:
 
     ./mvnw -Pprod clean package
 
-This will concatenate and minify the client CSS and JavaScript files. It will also modify [src/main/webapp/index.html](src/main/webapp/index.html) so it references these new files.
+This will concatenate and minify the client CSS and JavaScript files. It will also modify `index.html` so it references these new files.
 To ensure everything worked, run:
 
     java -jar target/*.war
